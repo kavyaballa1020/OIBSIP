@@ -1,79 +1,82 @@
 body {
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240103/pngtree-mesmerizing-composition-of-abstract-textured-dark-design-infused-with-gradient-red-image_13896003.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240103/pngtree-mesmerizing-composition-of-abstract-textured-dark-design-infused-with-gradient-red-image_13896003.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.calculator {
+  background-color: rgba(18, 17, 17, 0.215);
+  box-shadow: 0 8px 16px rgba(194, 3, 3, 0.59);
+  border-radius: 25px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 50px auto;
+  backdrop-filter: blur(10px);
+}
+
+#display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 15px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.473);
+  color: #000000;
+  border-radius: 25px; /* Change border radius to 25px */
+  margin-bottom: 30px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.39);
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 50%; /* Change border radius to 50% for complete round */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(251, 249, 249, 0.2);
+}
+
+.btn-secondary {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+.btn-success {
+  background-color: #d84603;
+  border-radius: 13px;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #000000;
     color: #fff;
-  }
-  
-  .calculator {
-    background-color: black;
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.59);
-    border-radius: 25px;
-    padding: 30px;
-    max-width: 400px;
-    margin: 50px auto;
-    backdrop-filter: blur(10px);
-  }
-  
-  #display {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: right;
-    padding: 15px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.473);
-    color: #000000;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.39);
-  }
-  
-  .btn {
-    font-size: 1.5rem;
-    padding: 20px;
-    border-radius: 10px;
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
-    box-shadow: 0 4px 8px rgba(251, 249, 249, 0.2);
-  }
-  
-  .btn-secondary {
-    background-color: #444;
-    color: #fff;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .btn-success {
-    background-color: #28a745;
-    color: #fff;
-  }
-  
-  .btn-danger {
-    background-color: #fb132a;
-    color: #fff;
-  }
-  
-  .btn:hover {
-    background-color: #bebbbb;
-    box-shadow: 0 6px 12px rgba(196, 196, 196, 0.664);
-    transform: translateY(-2px);
-    color: black;
-  }
-  
-  .btn-primary:hover {
-    background-color: #66adf9;
-  }
-  
-  .btn-success:hover {
-    background-color: #00ff3c;
-  }
-  
-  .btn-danger:hover {
-    background-color: #fd2525;
-    color: black;
-  }
+}
+
+.btn:hover {
+  background-color: #bebbbb;
+  box-shadow: 0 6px 12px rgba(196, 196, 196, 0.664);
+  transform: translateY(-2px);
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #66adf9;
+}
+
+.btn-success:hover {
+  background-color: #00ff3c;
+}
+
+.btn-danger:hover {
+  background-color: #fd2525;
+  color: black;
+}
