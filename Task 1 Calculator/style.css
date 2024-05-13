@@ -83,4 +83,9 @@ body {
   background-color: #cb0606;
   color: black;
 }
-@max-meida
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1rem; 
+    padding: 10px;
+  }
+}
