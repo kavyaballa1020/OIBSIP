@@ -13,8 +13,26 @@ document.addEventListener('DOMContentLoaded', function () {
   
     quotes.forEach(quote => {
       const p = document.createElement('p');
+      p.classList.add('quote');
       p.textContent = quote;
       quoteContainer.appendChild(p);
+    });
+  
+    // Sample photos
+    const photoUrls = [
+      'photo1.jpg',
+      'photo2.jpg',
+      'photo3.jpg',
+      'photo4.jpg',
+      // Add more photo URLs here
+    ];
+  
+    const photoGrid = document.querySelector('.photo-grid');
+  
+    photoUrls.forEach(url => {
+      const img = document.createElement('img');
+      img.src = url;
+      photoGrid.appendChild(img);
     });
   });
   

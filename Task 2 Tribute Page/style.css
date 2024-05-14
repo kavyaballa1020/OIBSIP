@@ -29,3 +29,38 @@ body {
     width: 100%;
   }
   
+  #about {
+    background-color: #f2f2f2;
+  }
+  
+  #quotes {
+    background-color: #e6e6e6;
+    padding: 30px;
+  }
+  
+  #quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quote {
+    margin: 10px 0;
+  }
+  
+  #gallery {
+    background-color: #f2f2f2;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
