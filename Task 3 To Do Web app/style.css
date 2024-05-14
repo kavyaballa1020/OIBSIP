@@ -62,7 +62,7 @@ body {
   width: 50%;
   margin-top: 10px;
   padding: 10px 0;
-  background: #6fd649;
+  background: #0a2fff;
   color: #fff;
   border: 0;
   outline: none;
@@ -71,14 +71,13 @@ body {
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-/* to do list */
   h1{
     color: white !important;
     text-shadow:  2px 3px 0 blue;
     font-weight: 800;
   }
   .custom-input-group input[type="text"] {
-    width: 350px; /* Adjust the width as needed */
+    width: 350px; 
   }
   .input-field {
     width: calc(100% - 110px);
@@ -142,7 +141,7 @@ body {
     opacity: 0.8;
   }
   .input1{
-    background-color: #ffffffd5;
+    background-color: #ffffffe9;
     color: white;
     border: 2px solid black;
     font-weight: 700;
