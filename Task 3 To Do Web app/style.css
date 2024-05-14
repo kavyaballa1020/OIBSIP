@@ -5,4 +5,88 @@ body {
     font-family: 'Poppins', sans-serif;
 
   }
+  h1{
+    color: white !important;
+    text-shadow:  2px 3px 0 blue;
+    font-weight: 800;
+  }
+  .custom-input-group input[type="text"] {
+    width: 350px; /* Adjust the width as needed */
+  }
+  .input-field {
+    width: calc(100% - 110px);
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+  }
+  
+  .btn-add {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(15, 14, 14, 0.856);
+    color: white;
+    border: 3px solid blue;
+ 
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3;
+  }
+  .card1{
+    background-color: rgba(2, 2, 2, 0.419);
+    box-shadow:0 1px 4px 0 white;
+    transition: transform 0.1s ease-in-out;
+  }
+  .card1:hover{
+    transform: translateY(-10px);
+  }
+  .card1:hover .input-field, .card1:hover button{
+    transform: translateY(-6px);
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+
+  .btn-clear {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(15, 14, 14, 0.856);
+    color: white;
+    border: 3px solid grey;
+  
+  }
+  .btn-remove{
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(15, 14, 14, 0.856);
+    color: white;
+    border: 2px solid red;
+  }
+  .btn-add:hover,
+  .btn-clear:hover {
+    opacity: 0.8;
+  }
+  .input1{
+    background-color: #ffffff75;
+    color: white;
+    border: 2px solid black;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .input1:focus{
+    background-color: rgba(15, 14, 14, 0.856);
+    color: white;
+  }
+  .input2{
+    background-color: rgba(0, 0, 0, 0.312);
+    color: white;
+  }
+  .card2{
+    width: 30%;
+    box-shadow: 0 3px 6px 0 rgb(119, 119, 247);
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+ 
   
