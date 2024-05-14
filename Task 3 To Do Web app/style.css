@@ -5,6 +5,73 @@ body {
     font-family: 'Poppins', sans-serif;
 
   }
+  body, html {
+    margin: 0;
+    padding: 0;
+}
+.container1 {
+  width: 50%;
+  height: 50vh;
+  background: rgb(8, 8, 8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-completed {
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(20, 161, 1, 0.793);
+  color: rgb(251, 255, 251);
+  padding: 7px;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+.popup{
+  width: 200px;
+  background: rgb(248, 248, 249);
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 20px 20px;
+  color:#101010;
+  transition: transform 0.4s, top 0.4s;
+  visibility: hidden;
+}
+.open-popup{
+  visibility: visible;
+  top: 20%;
+  transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+  width: 60px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 5px;
+}
+.popup button{
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* to do list */
   h1{
     color: white !important;
     text-shadow:  2px 3px 0 blue;
@@ -23,9 +90,11 @@ body {
   .btn-add {
     width: 100px;
     border-radius: 10px;
-    background-color: rgba(15, 14, 14, 0.856);
-    color: rgb(4, 0, 255);
+    background-color: rgba(0, 21, 255, 0.856);
+    color: rgb(255, 255, 255);
     border: 3px solid blue;
+    font-size: 15px;
+    font-weight: bolder;
  
   }
   
@@ -52,24 +121,28 @@ body {
   .btn-clear {
     width: 100px;
     border-radius: 10px;
-    background-color: rgba(15, 14, 14, 0.856);
-    color: grey;
+    background-color: rgba(172, 159, 159, 0.856);
+    color: rgb(255, 255, 255);
     border: 3px solid grey;
+    font-size: 15px;
+    font-weight: bolder;
   
   }
   .btn-remove{
     width: 100px;
     border-radius: 10px;
-    background-color: rgba(15, 14, 14, 0.856);
-    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.856);
+    color: rgb(255, 255, 255);
     border: 2px solid red;
+    font-size: 15px;
+    font-weight: bolder;
   }
   .btn-add:hover,
   .btn-clear:hover {
     opacity: 0.8;
   }
   .input1{
-    background-color: #ffffff75;
+    background-color: #ffffffd5;
     color: white;
     border: 2px solid black;
     font-weight: 700;
