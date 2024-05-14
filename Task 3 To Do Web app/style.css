@@ -60,3 +60,31 @@ body {
     background-color: #e0a800;
     border-color: #d39e00;
   }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 300px; /* Decreased the max-width to 300px */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1.5rem; /* Decreased the padding to 0.5rem */
+  }
+  
+  .card .input-group {
+    max-width: 100%;
+  }
+  
+  .card .input-group .form-control {
+    flex: 1 1 auto;
+    font-size: 0.9rem; /* Decreased the font size */
+  }
+  
+  .card .input-group .btn {
+    white-space: nowrap;
+    padding: 0.25rem 0.5rem; /* Decreased the padding for the button */
+    font-size: 0.8rem; /* Decreased the font size for the button */
+  }
