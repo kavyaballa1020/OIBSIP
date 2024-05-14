@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Sample photos
     const photoUrls = [
-      'photo1.jpg',
-      'photo2.jpg',
-      'photo3.jpg',
-      'photo4.jpg',
+      'N1.jpg',
+      'N5.jpg',
+      'N3.jpg',
+      'N4.jpg',
       // Add more photo URLs here
     ];
   

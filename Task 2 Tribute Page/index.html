@@ -3,33 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>In Loving Memory of Balla Venkat Rao (1978 - 2024)</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Tribute to Balla Venkata Rao</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://c1.wallpaperflare.com/preview/148/468/852/candles-mourning-candlelight-memory.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .jumbotron {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 100px 0;
+      margin-bottom: 0;
+    }
+
+    .jumbotron h1 {
+      font-weight: 600;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+    }
+
+    section {
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      font-weight: 600;
+    }
+
+    .img-fluid {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>In Loving Memory of Balla Venkat Rao</h1>
-  </header>
-  <section id="about">
-    <h2>About</h2>
-    <p>Balla Venkat Rao was born in 1978 and passed away in 2024. He was a loving father, husband, and friend.</p>
-  </section>
-  <section id="quotes">
-    <h2>Quotes</h2>
-    <div id="quote-container">
-      <!-- JavaScript will dynamically add quotes here -->
+
+  <div class="jumbotron">
+    <h1>Tribute to Balla Venkata Rao</h1>
+    <h2>1978 - 2022</h2>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Balla Venkata Rao</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#message">Message</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </section>
-  <section id="gallery">
-    <h2>Photo Gallery</h2>
-    <div class="photo-grid">
-      <!-- Add your photo gallery here -->
-      <!-- You can use <img> tags to display photos -->
-    </div>
-  </section>
-  <footer>
-    <p>&copy; 2024 Your Name</p>
-  </footer>
-  <script src="app.js"></script>
+  </nav>
+
+  <div class="container my-5">
+
+    <section id="about" class="mb-5">
+      <h2 class="mb-3">About</h2>
+      <p>Balla Venkata Rao was a beloved father, husband, and friend. He was born in 1978 and passed away in 2022 at the age of [age]. He was a kind-hearted and selfless person who always put his family first. His life was an inspiration to many, and his memory will forever be cherished.</p>
+    </section>
+
+    <section id="message" class="mb-5">
+      <h2 class="mb-3">A Message from His Daughter</h2>
+      <p>Dear Dad, you were the pillar of our family, the guiding light that led us through the darkest of times. Your love, wisdom, and unwavering support were the foundation upon which we built our lives. Though you're no longer with us physically, your spirit lives on in the countless lessons you taught us and the beautiful memories we shared.</p>
+      <p>I will forever cherish the moments we spent together, from the bedtime stories you read to me as a child to the heartfelt conversations we had as adults. Your gentle smile and warm embrace were a constant source of comfort and strength.</p>
+      <p>Dad, you were my superhero, my role model, and my best friend. I promise to carry on your legacy of kindness, integrity, and perseverance. You may have left this world, but your impact will ripple through eternity, touching the lives of generations to come.</p>
+      <p>I love you, Dad, and I will miss you every single day until we meet again.</p>
+    </section>
+
+    <section id="gallery" class="mb-5">
+      <h2 class="mb-3">Photo Gallery</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="N1.jpg" class="img-fluid rounded" alt="Photo 1">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="N3.jpg" class="img-fluid rounded" alt="Photo 2">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="N4.jpg" class="img-fluid rounded" alt="Photo 3">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
