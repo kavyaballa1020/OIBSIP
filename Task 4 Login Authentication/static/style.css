@@ -1,8 +1,12 @@
 /* style.css */
 body {
     font-family: Arial, sans-serif;
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/1103022267/thumb/1.jpg?ip=x480');
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: fixed; /* Fix the background position */
+    color: white;
 }
-
 .container {
     width: 50%;
     margin: auto;
